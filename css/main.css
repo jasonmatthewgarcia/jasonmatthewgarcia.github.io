@@ -3,6 +3,13 @@ body {
     font-family: 'Montserrat', 'sans-serif';
 }
 
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; /*same height as header*/
+    visibility: hidden;
+}
+
 p, blockquote {
     font-size: .86em;
     line-height: 1.9em;
@@ -416,8 +423,9 @@ input[type=submit] {
 
     nav ul li a {
         color: #fff;
+        display: default;
         background-color: inherit;
-        text-align: right;
+        text-align: center;
         padding: 1em 2em;
     }
 
