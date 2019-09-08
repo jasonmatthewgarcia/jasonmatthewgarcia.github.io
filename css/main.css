@@ -120,13 +120,15 @@ h1 {
 
 .container_text {
     flex: 1 1 auto;
-    text-align: left;
+    text-align: center;
     max-width: 80%;
 }
 
 .about-me-container .profile-picture {
     display: block;
-    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -3em;
     margin-bottom: 1em;
     width: 50%;
@@ -359,6 +361,10 @@ input[type=submit] {
     .about-me-container {
         flex-direction: row;
         margin-bottom: 20%;
+    }
+
+    .container_text {
+        text-align: left;
     }
 
     .about-me-container p {
