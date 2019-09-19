@@ -273,7 +273,7 @@ nav ul li a:hover {
 }
 
 input, textarea {
-    font-family: 'Montserrat';
+    font-family: 'montserrat-regular';
 }
 
 input[type=text], select, textarea {
@@ -294,6 +294,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'montserrat-regular'
 }  
 
 .footer-container p {
@@ -491,6 +492,6 @@ input[type=submit] {
     }
 
     .about-me-container img {
-        width: 15%;
+        /* width: 15%; */
     }
 }
